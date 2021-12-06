@@ -1,0 +1,21 @@
+.subscribeButton{
+    width: 260px;
+    height: 4rem;
+    border-radius: 2rem;
+    border: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: var(--yellow-500);
+
+    color: var(--gray-900);
+    font-size: 1.25rem;
+    font-weight: bold;
+
+    transition: filter 300ms;
+    &:hover{
+        filter: brightness(0.8);
+    }
+}
